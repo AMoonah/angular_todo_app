@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html ng-app="root" lang="en"> <!-- Do I need this ng-app if there's one in the body-->
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="assets/libs.css">
-        <link rel="stylesheet" href="assets/angular-seed.css">
-        <title>ToDo App</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/libs.css">
+    <link rel="stylesheet" href="assets/angular-seed.css">
+    <title>TodoApp</title>
+</head>
+<body ng-app="AngularSeed">
+<h1>Getting Started with Angularjs</h1>
+<script type="application/javascript" src="assets/libs.js"></script>
+<script type="application/javascript" src="assets/angular-seed.js"></script>
 
-    <body ng-app="AngularSeed">
-        <h1>Getting Started with Angularjs</h1>
-        <script type="application/javascript" src="assets/libs.js"></script>
-        <script type="application/javascript" src="assets/angular-seed.js"></script>
+<div ng-controller="index">
+    <div>
+        <input type="text" ng-model="inputMessage" />
+         {{ inputMessage }}
+    </div>
+</div>
 
-        <div>
-            ADD <input type="text" ng-model="addMessage" />
-            <label>ADD</label>
-            <input type="" name="">
-            <p></p>
-        </div>
-    </body>
-
+</body>
 </html>
