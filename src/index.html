@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="assets/libs.css">
-    <link rel="stylesheet" href="assets/angular-seed.css">
-    <title>TodoApp</title>
-</head>
-<body ng-app="AngularSeed">
-<h1>Getting Started with Angularjs</h1>
-<script type="application/javascript" src="assets/libs.js"></script>
-<script type="application/javascript" src="assets/angular-seed.js"></script>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/libs.css">
+        <link rel="stylesheet" href="assets/angular-seed.css">
+        <title>TodoApp</title>
+    </head>
+    <body ng-app="AngularSeed">
+    <h1>Getting Started with Angularjs</h1>
+    <script type="application/javascript" src="assets/libs.js"></script>
+    <script type="application/javascript" src="assets/angular-seed.js"></script>
 
-<div ng-controller="index">
     <div>
-        <input type="text" ng-model="inputMessage" />
-         {{ inputMessage }}
-    </div>
-</div>
+        <label> ADD <input type="text" ng-model="inputMessage"></label>
 
-</body>
+        <p> {{ inputMessage }} </p>
+    </div>
+
+    </body>
 </html>
