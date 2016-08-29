@@ -4,11 +4,18 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="assets/libs.css">
         <link rel="stylesheet" href="assets/angular-seed.css">
-        <title>Angular Seed</title>
+        <title>TodoApp</title>
     </head>
     <body ng-app="AngularSeed">
-        <h1>Getting Started with Angularjs</h1>
-        <script type="application/javascript" src="assets/libs.js"></script>
-        <script type="application/javascript" src="assets/angular-seed.js"></script>
+    <h1>Getting Started with Angularjs</h1>
+    <script type="application/javascript" src="assets/libs.js"></script>
+    <script type="application/javascript" src="assets/angular-seed.js"></script>
+
+    <div>
+        <label> ADD <input type="text" ng-model="inputMessage"></label>
+
+        <p> {{ inputMessage }} </p>
+    </div>
+
     </body>
 </html>
