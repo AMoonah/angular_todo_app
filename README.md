@@ -9,4 +9,4 @@ The assignment will assume that you will use this project structure.
 
 ## Assignments
 * [assignment1](https://github.com/AMoonah/angular_todo_app/blob/assignments/assignment1.md)
-* [assignment2](https://github.com/AMoohan/angular_todo_app/blob/assignments/assignment1.md)
+* [assignment2](https://github.com/AMoonah/angular_todo_app/blob/assignments/assignment2.md)
