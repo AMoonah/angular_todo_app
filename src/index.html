@@ -12,10 +12,15 @@
     <script type="application/javascript" src="assets/angular-seed.js"></script>
 
     <div>
-        <label> ADD <input type="text" ng-model="inputMessage"></label>
+        <input type="text" ng-model="inputMessage">
 
-        <p> {{ inputMessage }} </p>
+        <button ng-disabled="!inputMessage" class="btn btn-primary">add todo</button>
     </div>
 
+        <!--<ul>-->
+            <!--<li></li>-->
+        <!--</ul>-->
     </body>
 </html>
+
+
